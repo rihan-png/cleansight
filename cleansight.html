@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Point 8a: SEO Meta Tags -->
+  <title>CV CleanSight | AI Food Quality & Kitchen Inspection System</title>
+  <meta name="description" content="Automate kitchen quality control with CV CleanSight. Edge AI computer vision & IoT sensors ensure consistent cooking, plating & portions across QSRs." />
+  <meta name="keywords" content="AI food quality inspection, cloud kitchen automation, computer vision restaurant QC, QSR portion control, FoodTech SaaS India" />
+  <meta name="author" content="Rihan Mahamadasif Bagwan" />
+
+  <!-- Open Graph / Social Sharing Tags (Point 9) -->
+  <meta property="og:title" content="CV CleanSight — AI Kitchen Quality Control" />
+  <meta property="og:description" content="Stop 1-star food reviews. Real-time YOLOv8 + OpenCV + ESP32 telemetry for cloud kitchens and QSR chains." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rihan-png.github.io/cleansight.html" />
+
+  <!-- Point 6: Google Analytics 4 (GA4) MarTech Integration -->
+  <!-- Replace G-XXXXXXXXXX with your actual GA4 Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --dark: #0f172a;
+      --slate: #475569;
+      --light: #f8fafc;
+      --accent: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    body { background: var(--light); color: var(--dark); line-height: 1.6; }
+    header { background: var(--dark); color: #fff; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; }
+    .logo span { color: var(--accent); }
+    .btn { background: var(--primary); color: #fff; padding: 0.7rem 1.4rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: none; cursor: pointer; transition: 0.2s; display: inline-block; }
+    .btn:hover { background: var(--primary-dark); }
+    
+    /* Hero Section */
+    .hero { padding: 5rem 5% 4rem; text-align: center; max-width: 900px; margin: auto; }
+    .badge { background: #dbeafe; color: var(--primary-dark); padding: 0.35rem 0.9rem; border-radius: 999px; font-size: 0.85rem; font-weight: 600; display: inline-block; margin-bottom: 1rem; }
+    .hero h1 { font-size: 2.75rem; line-height: 1.2; margin-bottom: 1.2rem; }
+    .hero p { font-size: 1.15rem; color: var(--slate); margin-bottom: 2rem; }
+
+    /* Features Grid */
+    .section { padding: 3.5rem 5%; max-width: 1100px; margin: auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; padding: 1.75rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+    .card h3 { margin-bottom: 0.6rem; color: var(--dark); }
+    .card p { color: var(--slate); font-size: 0.95rem; }
+
+    /* Pricing Section */
+    .pricing-card { text-align: center; border-top: 4px solid var(--primary); }
+    .price { font-size: 2rem; font-weight: 800; margin: 0.75rem 0; color: var(--primary); }
+    .price span { font-size: 0.9rem; color: var(--slate); font-weight: 400; }
+
+    /* Lead Capture CRM Form (BOFU) */
+    .lead-box { background: var(--dark); color: #fff; padding: 3rem 5%; border-radius: 16px; max-width: 750px; margin: 3rem auto; }
+    .lead-box h2 { margin-bottom: 0.5rem; }
+    .lead-box p { color: #cbd5e1; margin-bottom: 1.5rem; }
+    form { display: grid; gap: 1rem; }
+    input, select { width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #fff; font-size: 1rem; }
+    input::placeholder { color: #94a3b8; }
+    #statusMsg { margin-top: 1rem; font-weight: 600; color: var(--accent); display: none; }
+
+    footer { text-align: center; padding: 2rem 5%; color: var(--slate); font-size: 0.9rem; border-top: 1px solid #e2e8f0; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">CV <span>CleanSight</span></div>
+    <a href="#pilot-form" class="btn">Book 14-Day Free Pilot</a>
+  </header>
+
+  <section class="hero">
+    <div class="badge">Edge AI Computer Vision + ESP32 IoT Telemetry</div>
+    <h1>Standardize Every Dish Across Every Kitchen Shift</h1>
+    <p>Eliminate burnt orders, portion deviations, and 1-star delivery refunds. CV CleanSight scores cooking quality, plating, and temperature on a calibrated 100-point scale in real time.</p>
+    <a href="#pilot-form" class="btn">Request Free Kitchen Audit</a>
+  </section>
+
+  <section class="section">
+    <div class="grid">
+      <div class="card">
+        <h3>1. YOLOv8 + OpenCV Inspection</h3>
+        <p>Real-time overhead visual classification detects browning levels, oil sheen, garnish placement, and plating consistency before dispatch.</p>
+      </div>
+      <div class="card">
+        <h3>2. ESP32 IoT Sensor Telemetry</h3>
+        <p>Integrated load cells and digital core-temperature probes eliminate visual-only blind spots and verify exact portion weight.</p>
+      </div>
+      <div class="card">
+        <h3>3. 100-Point Food Quality Score</h3>
+        <p>Instant pass/fail alerts at the kitchen pass plus cloud analytics tracking chef performance across multiple QSR branches.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom:2rem;">Transparent SaaS + Hardware Pricing</h2>
+    <div class="grid">
+      <div class="card pricing-card">
+        <h3>Basic (Single Kitchen)</h3>
+        <div class="price">₹2,999<span>/month</span></div>
+        <p>Real-time CV quality scoring, shift reports, and mobile alerts.</p>
+      </div>
+      <div class="card pricing-card" style="border-top-color: var(--accent);">
+        <h3>Professional (Multi-Chef)</h3>
+        <div class="price">₹5,999<span>/month</span></div>
+        <p>Multi-station tracking, portion analytics & chef leaderboards.</p>
+      </div>
+      <div class="card pricing-card">
+        <h3>IoT Sensor Kit</h3>
+        <div class="price">₹14,999<span>/one-time</span></div>
+        <p>Overhead camera rig, ESP32 module, load cell & thermal probe.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Point 5 & 11: BOFU Conversion & UTM Attribution Form -->
+  <section id="pilot-form" class="section">
+    <div class="lead-box">
+      <h2>Start Your 14-Day Free Commercial Pilot</h2>
+      <p>Available for Cloud Kitchens & QSRs in the Pune–Kolhapur–Sangli belt.</p>
+      <form id="pilotLeadForm">
+        <input type="text" id="name" placeholder="Founder / Operations Manager Name" required />
+        <input type="text" id="brand" placeholder="Cloud Kitchen / Restaurant Brand Name" required />
+        <input type="tel" id="phone" placeholder="WhatsApp / Mobile Number" required />
+        <select id="outlets">
+          <option value="1-2 Outlets">1–2 Kitchen Outlets</option>
+          <option value="3-10 Outlets">3–10 Kitchen Outlets</option>
+          <option value="10+ Chain">10+ QSR Chain</option>
+        </select>
+        <!-- Hidden fields to capture Point 11a UTM Campaign Attribution -->
+        <input type="hidden" id="utm_source" />
+        <input type="hidden" id="utm_medium" />
+        <input type="hidden" id="utm_campaign" />
+        <button type="submit" class="btn" style="background: var(--accent); color: #0f172a;">Claim Free 14-Day Pilot</button>
+      </form>
+      <div id="statusMsg"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 CV CleanSight • Engineered by Rihan Bagwan, Subodh Phakade & Aditya Khot (TE ECS, PVPIT Sangli)</p>
+  </footer>
+
+  <!-- MarTech UTM Tracker & Conversion Event Script -->
+  <script>
+    // 1. Capture UTM parameters from Point 11a URLs
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('utm_source').value = params.get('utm_source') || 'direct';
+    document.getElementById('utm_medium').value = params.get('utm_medium') || 'organic';
+    document.getElementById('utm_campaign').value = params.get('utm_campaign') || 'none';
+
+    // 2. Handle BOFU Lead Conversion & Fire GA4 Event
+    document.getElementById('pilotLeadForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const leadData = {
+        name: document.getElementById('name').value,
+        brand: document.getElementById('brand').value,
+        phone: document.getElementById('phone').value,
+        outlets: document.getElementById('outlets').value,
+        source: document.getElementById('utm_source').value,
+        medium: document.getElementById('utm_medium').value,
+        campaign: document.getElementById('utm_campaign').value,
+        timestamp: new Date().toISOString()
+      };
+
+      // Send conversion event to Google Analytics 4
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          event_category: 'Pilot_Signup',
+          event_label: leadData.campaign,
+          value: 14999
+        });
+      }
+
+      // Store locally for demo verification
+      const leads = JSON.parse(localStorage.getItem('cleansight_leads') || '[]');
+      leads.push(leadData);
+      localStorage.setItem('cleansight_leads', JSON.stringify(leads));
+
+      const msg = document.getElementById('statusMsg');
+      msg.style.display = 'block';
+      msg.textContent = `✅ Pilot request logged for ${leadData.brand}! (Attribution: ${leadData.source} / ${leadData.campaign})`;
+      this.reset();
+    });
+  </script>
+</body>
+</html>
